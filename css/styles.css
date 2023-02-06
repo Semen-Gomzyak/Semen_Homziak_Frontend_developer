@@ -31,9 +31,9 @@ body {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  line-height: 17px;
-  font-size: 14px;
-  color: #000;
+  line-height: 20px;
+  font-size: 1.25;
+  color: #fb6d3a;
   margin: 0 0 20px 0;
 }
 .about-me-name {
@@ -181,8 +181,8 @@ body {
 .my-work-experience-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 1.25;
   color: #000000;
   margin: 0 0 10px 0;
 }
@@ -214,8 +214,8 @@ body {
 .my-work-experience-position-Roga {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 1.25;
   color: #000000;
   margin: 0 0 10px 0;
 }
@@ -250,16 +250,16 @@ body {
 .My-education-university {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 1.25;
   color: #fb6d3a;
   margin: 0 0 12px 0;
 }
 .My-education-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 20px;
+  line-height: 1.25;
   color: #000000;
   margin: 0 0 11px 0;
 }
@@ -355,9 +355,15 @@ body {
 }
 
 .foto-container{
+  position: relative;
   width: 320px;
+  height: 420px;
 }
 
 .foto{
-  width: 100%;
+  width: 360px;
+    height: 480px;
+    position: absolute;
+    top: -90px;
+    left: -40px;
 }
